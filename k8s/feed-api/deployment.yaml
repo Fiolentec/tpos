@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: gcr.io/studious-pulsar-278518/feed
+          image: gcr.io/studious-pulsar-278518/feed@sha256:57d57156c91436fe271f2a0b2de120485ed547ff2fde4ef57f55aac3e5f86198
           ports:
             - containerPort: 7070
           envFrom:
