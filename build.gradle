@@ -1,13 +1,15 @@
 plugins {
     id 'java'
-    id("org.springframework.boot") version "2.2.0.RELEASE"
+
 }
 
 subprojects {
     apply plugin: 'java'
+    apply plugin: 'application'
     apply plugin: 'java-library'
     apply plugin: 'maven-publish'
-    apply plugin: "org.springframework.boot"
+
+    mainClassName = "ru.sbt.twitter.FeedStarter"
 
     group = 'ru.sber.lm'
     version = '1.0-SNAPSHOT'
