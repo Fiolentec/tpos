@@ -11,3 +11,8 @@ dependencies {
             "io.springfox:springfox-swagger-ui:2.9.2"
 }
 
+jar {
+    manifest {
+        attributes("Main-Class": "ru.sbt.twitter.FeedStarter")
+    }
+}
