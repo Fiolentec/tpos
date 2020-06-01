@@ -1,7 +1,7 @@
 package ru.sbt.twitter;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+//import org.springframework.boot.runApplication;
 import static org.springframework.boot.SpringApplication.run;
 
 
