@@ -7,6 +7,6 @@ metadata:
 data:
   POSTGRES_SERVICE: db
   POSTGRES_PORT: "5432"
-  POSTGRES_DB_NAME: feed_db
-  POSTGRES_USER: feed_admin
-  POSTGRES_PASSWORD: qwerty123456
+  POSTGRES_DB_NAME: postgresdb
+  POSTGRES_USER: postgres_user
+  POSTGRES_PASSWORD: postgres_password
