@@ -11,6 +11,8 @@ import ru.sbt.twitter.entity.OwnerSubscriptions;
 import ru.sbt.twitter.entity.Tweet;
 import ru.sbt.twitter.entity.User;
 import ru.sbt.twitter.service.FeedService;
+import org.springframework.http.ResponseEntity;
+
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -75,4 +77,11 @@ public class FeedController {
         User user = new User(userid, login, firstname, lastname);
         feedService.addUser(user);
     }
+
+    @GetMapping("/")
+    public ResponseEntity<String> healthcheck() {
+        return ResponseEntity.ok("");
+    }
+
+
 }
