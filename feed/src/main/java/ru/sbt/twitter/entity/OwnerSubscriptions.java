@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @Entity
 @IdClass(OwnerSubscriptionsCompositeKey.class)
-@Table(name = "ownersubscriptions", schema = "feed_cfg")
+@Table(name = "ownersubscriptions")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
