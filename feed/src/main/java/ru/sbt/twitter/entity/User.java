@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "usersinfo", schema = "feed_cfg")
+@Table(name = "usersinfo")
 @Data
 //@Value
 @JsonIgnoreProperties(ignoreUnknown = true)

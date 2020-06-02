@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 
 @Entity
 @IdClass(TweetsCompositeKey.class)
-@Table(name = "tweets", schema = "feed_cfg")
+@Table(name = "tweets")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
